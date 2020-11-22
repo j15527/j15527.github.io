@@ -11,9 +11,7 @@ body{
     background-color: #ff5500;
 }
 
-#svg{
 
-}
 #h3-interest{
     margin: 1em;
 }
@@ -21,7 +19,7 @@ body{
 .top-box {
     padding: 30px;
     width: 100vw;
-    height: 200px;
+    height: auto;
     background-color: #ff5500;
     /*background-color: #9fcdff;*/
 
@@ -44,13 +42,16 @@ h1{
     height: auto;
     background-color: #ff5500;
     /*background-color: #9fcdff;*/
+}
 
-
+.col-lg-3{
+    display: flex;
+    justify-content: center;
 }
 
 .my-content{
-    margin: 1rem;
-    justify-content:space-evenly ;
+    display: flex;
+    flex-direction: column;
     padding: 1rem;
     text-align: center;
     height: auto;
@@ -59,7 +60,9 @@ h1{
 
 .my-card{
     box-shadow: black;
-    margin: 3rem;
+    height: auto;
+    width: auto;
+    margin: 1rem;
 
 }
 
