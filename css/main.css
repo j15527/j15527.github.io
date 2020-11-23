@@ -11,9 +11,7 @@ body{
     background-color: #ff5500;
 }
 
-#svg{
 
-}
 #h3-interest{
     margin: 1em;
 }
@@ -83,6 +81,10 @@ h1{
     top: 20px;
 }
 
+.list-group-item-action{
+    width: 75px;
+}
+
 .my-footer{
     text-align: center;
 }
@@ -104,5 +106,5 @@ h1{
     background-color: #ff5500;
 }
 .fa{
-    color: aliceblue;
+    color: black;
 }
